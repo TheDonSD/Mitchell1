@@ -17,5 +17,5 @@ FROM
     @xmlData.nodes('/xml/record') AS X(field);
 
 --Validation of data insert
-SELECT * FROM AddressTable
+SELECT * FROM dbo.AddressTable
 
